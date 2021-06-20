@@ -1,0 +1,190 @@
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #0e494d !important;
+}
+
+.orange {
+  background-color: orangered !important;
+}
+
+.sky {
+  background-color: #00fff2 !important;
+}
+
+.cloud {
+  background-color: #292929 !important;
+}
+
+.Gain {
+  background-color: #0e494d !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw !important;
+  font-family: "Poppins", sans-serif !important;
+  overflow-x: hidden;
+}
+
+.btn {
+  color: #ffff !important;
+  font-size: 13px;
+  border: 1px solid #ffff !important;
+  border-radius: 30px;
+}
+
+.nav-link {
+  color: #ffff !important;
+}
+
+.hero {
+  color: #ffff;
+  background-image: url(/images/BG.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.cart {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.cart .counter {
+  width: 15px;
+  height: 15px;
+  color: #ffff;
+  font-size: 10px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: #0e494d;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(30%, -30%);
+          transform: translate(30%, -30%);
+}
+
+.text h1 {
+  font-size: 55px;
+}
+
+.text h3 {
+  color: #e0b05b !important;
+}
+
+.image .img {
+  -webkit-transform: rotateZ(-45deg);
+          transform: rotateZ(-45deg);
+}
+
+.swoosh {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: .3;
+}
+
+.selector::-webkit-scrollbar {
+  display: none;
+}
+
+.selector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.selector .counter .bar {
+  width: 100%;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.253);
+  border-radius: 30px;
+}
+
+.selector .counter .bar .extBar {
+  width: 10%;
+  height: 3px;
+  background-color: #ffff;
+  border-radius: 30px;
+}
+
+.shoeCard {
+  width: 250px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: #ffff;
+  color: #131212;
+  position: relative;
+  overflow-x: visible;
+}
+
+.shoeCard .shoe {
+  height: 100px;
+  width: 40%;
+  background-color: #4d0404;
+  position: relative;
+  border-radius: 5px;
+}
+
+.shoeCard .shoe img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translate(-35%, -50%) rotateZ(-35deg);
+          transform: translate(-35%, -50%) rotateZ(-35deg);
+}
+
+.shoeCard .Details {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.shoeCard .add {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+/*# sourceMappingURL=style.css.map */

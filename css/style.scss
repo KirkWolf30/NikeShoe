@@ -1,0 +1,187 @@
+$Sixty : #0e494d;
+$thirty : #e0b05b;
+$ten: #ffff;
+
+$font :  'Poppins', sans-serif;
+
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: $Sixty !important;
+}
+
+.orange{
+    background-color: orangered !important;
+}
+
+.sky{
+    background-color: rgb(0, 255, 242) !important;
+}
+
+.cloud{
+    background-color: rgb(41, 41, 41) !important;
+}
+
+.Gain{
+    background-color: $Sixty !important;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body{
+    width: 100vw !important;
+    font-family: $font !important;
+    overflow-x: hidden;
+    
+    
+}
+
+.btn{
+    color: $ten !important;
+    font-size: 13px ;
+    border: 1px solid $ten !important;
+    border-radius: 30px;
+}
+
+.nav-link{
+    color: $ten !important;
+}
+
+.hero{
+   color: $ten;
+    background-image: url(/images/BG.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.cart{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: $ten;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .counter{
+        width: 15px;
+        height: 15px;
+        color: $ten;
+        font-size: 10px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: $Sixty;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(30% , -30%);
+    }
+}
+
+.text{
+    h1{
+        font-size: 55px;
+    }
+
+    h3{
+        color: $thirty !important;
+    }
+}
+
+.image{
+    .img{
+        transform: rotateZ(-45deg);
+    }
+}
+
+.swoosh{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    opacity: .3;
+}
+
+.selector::-webkit-scrollbar{
+    display: none;
+}
+
+.selector{
+
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+
+overflow: hidden;
+overflow-x: scroll;
+
+
+
+
+    .counter{
+        .bar{
+            width: 100%;
+            height: 3px;
+            background-color: rgba(255, 255, 255, 0.253);
+            border-radius: 30px;
+
+            .extBar{
+                width: 10%;
+            height: 3px;
+            background-color: $ten;
+            border-radius: 30px;
+            }
+        }
+    }
+}
+
+.shoeCard{
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: $ten;
+    color: rgb(19, 18, 18);
+    position: relative;
+overflow-x: visible;
+    .shoe{
+        height: 100px;
+        width: 40%;
+        background-color: rgb(77, 4, 4);
+       position: relative;
+       border-radius: 5px;
+
+        img{
+position: absolute;
+left: 0;
+top: 50%;
+transform: translate(-35% , -50% ) rotateZ(-35deg);
+        }
+    }
+
+    .Details{
+        font-size: 12px;
+font-weight: bold;
+    }
+
+.add{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+}
